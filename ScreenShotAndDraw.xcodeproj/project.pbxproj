@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB379C11C75A877002FB83A /* DrawBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB379BC1C75A877002FB83A /* DrawBgView.m */; };
+		BFB379C21C75A877002FB83A /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB379BE1C75A877002FB83A /* DrawView.m */; };
+		BFB379C31C75A877002FB83A /* ToolBarDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB379C01C75A877002FB83A /* ToolBarDraw.m */; };
+		BFB379C51C75AA87002FB83A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB379C41C75AA87002FB83A /* bg.png */; };
 		BFDDF0D81C74637300F564BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF0D71C74637300F564BE /* main.m */; };
 		BFDDF0DB1C74637300F564BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF0DA1C74637300F564BE /* AppDelegate.m */; };
 		BFDDF0DE1C74637300F564BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF0DD1C74637300F564BE /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		BFDDF0E61C74637300F564BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDDF0E41C74637300F564BE /* LaunchScreen.storyboard */; };
 		BFDDF0F11C74637300F564BE /* ScreenShotAndDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF0F01C74637300F564BE /* ScreenShotAndDrawTests.m */; };
 		BFDDF0FC1C74637300F564BE /* ScreenShotAndDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF0FB1C74637300F564BE /* ScreenShotAndDrawUITests.m */; };
+		BFDDF10E1C7467C200F564BE /* ShowDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDF10D1C7467C200F564BE /* ShowDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFB379BB1C75A877002FB83A /* DrawBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBgView.h; sourceTree = "<group>"; };
+		BFB379BC1C75A877002FB83A /* DrawBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBgView.m; sourceTree = "<group>"; };
+		BFB379BD1C75A877002FB83A /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		BFB379BE1C75A877002FB83A /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		BFB379BF1C75A877002FB83A /* ToolBarDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarDraw.h; sourceTree = "<group>"; };
+		BFB379C01C75A877002FB83A /* ToolBarDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarDraw.m; sourceTree = "<group>"; };
+		BFB379C41C75AA87002FB83A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		BFDDF0D31C74637300F564BE /* ScreenShotAndDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenShotAndDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDDF0D71C74637300F564BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFDDF0D91C74637300F564BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		BFDDF0F71C74637300F564BE /* ScreenShotAndDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenShotAndDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDDF0FB1C74637300F564BE /* ScreenShotAndDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenShotAndDrawUITests.m; sourceTree = "<group>"; };
 		BFDDF0FD1C74637300F564BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDDF10C1C7467C200F564BE /* ShowDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDrawViewController.h; sourceTree = "<group>"; };
+		BFDDF10D1C7467C200F564BE /* ShowDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFB379BA1C75A877002FB83A /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				BFB379C41C75AA87002FB83A /* bg.png */,
+				BFB379BF1C75A877002FB83A /* ToolBarDraw.h */,
+				BFB379C01C75A877002FB83A /* ToolBarDraw.m */,
+				BFB379BB1C75A877002FB83A /* DrawBgView.h */,
+				BFB379BC1C75A877002FB83A /* DrawBgView.m */,
+				BFB379BD1C75A877002FB83A /* DrawView.h */,
+				BFB379BE1C75A877002FB83A /* DrawView.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
 		BFDDF0CA1C74637300F564BE = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +133,9 @@
 				BFDDF0DA1C74637300F564BE /* AppDelegate.m */,
 				BFDDF0DC1C74637300F564BE /* ViewController.h */,
 				BFDDF0DD1C74637300F564BE /* ViewController.m */,
+				BFDDF10C1C7467C200F564BE /* ShowDrawViewController.h */,
+				BFDDF10D1C7467C200F564BE /* ShowDrawViewController.m */,
+				BFB379BA1C75A877002FB83A /* Draw */,
 				BFDDF0DF1C74637300F564BE /* Main.storyboard */,
 				BFDDF0E21C74637300F564BE /* Assets.xcassets */,
 				BFDDF0E41C74637300F564BE /* LaunchScreen.storyboard */,
@@ -245,6 +276,7 @@
 			files = (
 				BFDDF0E61C74637300F564BE /* LaunchScreen.storyboard in Resources */,
 				BFDDF0E31C74637300F564BE /* Assets.xcassets in Resources */,
+				BFB379C51C75AA87002FB83A /* bg.png in Resources */,
 				BFDDF0E11C74637300F564BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDDF0DE1C74637300F564BE /* ViewController.m in Sources */,
+				BFDDF10E1C7467C200F564BE /* ShowDrawViewController.m in Sources */,
+				BFB379C21C75A877002FB83A /* DrawView.m in Sources */,
 				BFDDF0DB1C74637300F564BE /* AppDelegate.m in Sources */,
 				BFDDF0D81C74637300F564BE /* main.m in Sources */,
+				BFB379C11C75A877002FB83A /* DrawBgView.m in Sources */,
+				BFB379C31C75A877002FB83A /* ToolBarDraw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +534,7 @@
 				BFDDF1021C74637300F564BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDDF1031C74637300F564BE /* Build configuration list for PBXNativeTarget "ScreenShotAndDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				BFDDF1051C74637300F564BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDDF1061C74637300F564BE /* Build configuration list for PBXNativeTarget "ScreenShotAndDrawUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				BFDDF1081C74637300F564BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
